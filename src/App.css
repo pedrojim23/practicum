@@ -1,0 +1,50 @@
+.App {
+  display: flex; /* Usa flexbox */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana */
+}
+
+.App-content {
+  text-align: center; /* Centra el contenido de manera horizontal */
+}
+
+/* Estilo para los botones */
+.App-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff8000; /* Color de fondo */
+  color: white; /* Color del texto */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  /*box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);  Efecto de sombra */
+}
+
+/* Estilo al pasar el mouse por encima */
+.App-content button:hover {
+  background-color: rgb(247, 135, 7); /* Cambia el color de fondo al pasar el mouse */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Efecto de sombra al pasar el mouse */
+}
+
+/* En tu archivo CSS (por ejemplo, App.css) */
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
